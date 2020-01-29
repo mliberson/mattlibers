@@ -1,0 +1,21 @@
+Matthew Liberson
+
+2723667394
+
+mliberso@usc.edu
+
+readme part1
+
+Summary:
+This code begins by taking in inputs from the user and separating it into integers. It then feeds the integers into the func function, which calculated dz by multiplying each number to itself and summing each result to find z. It then uses z to calcuate the error with a function that creates bounds by moding the randomly generated number by the maximum number. The result is then added to z to create the output, dz. 
+
+Instructions:
+The code can be compiled normally using gcc. Then, it can be run in the command line with ./blackbox [x] [y] [d], where x,y,z are numbers of your choice
+
+Sources:
+for line 10, I used a mod method to creates bounds for the random function, the idea for this came from https://www.programmingsimplified.com/c-program-generate-random-numbers
+
+I formatted the comand line arguments on line 29 with help from the source https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/
+
+readme part2
+
